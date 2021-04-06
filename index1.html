@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="description" content="Find A Language Exchange Partner Online! ✓ Connect With Other Language Learners ✓ Learn From Native Speakers For Free ✓ Join The Best Conversation Exchange Community ✓ Become Fluent With Tandem!" />
-    <link rel="canonical" href="https://www.tandem.net/" />
+    <!-- <link rel="canonical" href="https://www.tandem.net/" />
     <link rel="alternate" hrefLang="x-default" href="https://www.tandem.net/" />
     <link rel="alternate" hrefLang="en" href="https://www.tandem.net/" />
     <link rel="alternate" hrefLang="ru" href="https://www.tandem.net/ru" />
@@ -20,8 +20,9 @@
     <link rel="alternate" hrefLang="es" href="https://www.tandem.net/es" />
     <link rel="alternate" hrefLang="zh-Hans" href="https://tandem.net.cn/zh-hans" />
     <link rel="alternate" hrefLang="zh-Hant" href="https://www.tandem.net/zh-hant" />
-    <link rel="alternate" hrefLang="ko" href="https://www.tandem.net/ko" />
+    <link rel="alternate" hrefLang="ko" href="https://www.tandem.net/ko" /> -->
     <link rel="stylesheet" href="static/sstyle.css">
+    <!-- <link rel="stylesheet" href="aboutstyle.css"> -->
     <!-- <link rel="stylesheet" href="static/styles.min.css"> -->
     <meta property="fb:app_id" content="941657625846827" />
     <meta property="og:locale" content="en" />
@@ -53,7 +54,16 @@
     <link rel="preconnect" href="https://stats.g.doubleclick.net" />
     <link rel="preconnect" href="https://www.google-analytics.com" />
 
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+            }, 'google_translate_element');
+        }
+    </script>
 
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
     <script type="text/javascript">
@@ -156,6 +166,9 @@
             });
         });
     </script>
+
+    <!-- change logo when scrolled -->
+
     <meta name="next-head-count" content="8" />
 
     <link rel="preload" href="q1.css" as="style" />
@@ -193,6 +206,12 @@
     <link rel="preload" href="https://www.tandem.net/_next/static/chunks/e7771f375797934c196ee67d6235d854084c1145.1813d655bf436f9736b3.js" as="script" />
     <link rel="preload" href="https://www.tandem.net/_next/static/chunks/pages/index-5617f61ef05b75dfdaab.js" as="script" /> -->
     <link rel="stylesheet" href="extra.css">
+    <script src="jquery.js"></script>
+    <script>
+        $(function() {
+            $("#includedContent").load("blog.html");
+        });
+    </script>
 </head>
 
 <body>
@@ -200,25 +219,54 @@
         <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="5af78fe0-21c5-49c5-aeda-b70f5e3888b6" data-silent-mode="true"></script>
         <div class="lang_en containers-Layout__container">
             <header class="header">
-                <nav class="navbar navbar-expand-lg fixed-top py-3">
+                <nav class="navbar navbar-expand-lg  fixed-top py-3 ">
                     <div class="container">
                         <a class="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="logo" height="50px" width="50px">
+                            <img src="images/logo1.png" alt="logo" height="50px" width="200px">
                         </a>
 
-                        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        <div id="navbarNavDropdown" class="collapse navbar-collapse">
+                            <ul class="navbar-nav mx-auto">
 
-                        <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Web-login <span class="sr-only">(current)</span></a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Academy</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Blog</a></li>
-                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">English</a></li>
+                                <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold" style="padding-left: 30px;">Web-login <span class="sr-only">(current)</span></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="padding-left: 30px;">Academy</a></li>
+                                <li class="nav-item"><a href="about.html" class="nav-link text-uppercase font-weight-bold" style="padding-left: 30px;">About</a></li>
+                                <li class="nav-item"><a href="blo.html" class="nav-link text-uppercase font-weight-bold" style="padding-left: 30px;">Blog</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold" style="padding-left: 30px;">English</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <!-- <nav class="navbar navbar-expand-lg  fixed-top  navbar-fixed-top navbar-light bg-light ">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo" height="50px" width="50px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Web-login <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Academy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                             <li class="nav-item dropdown">
+                                <div id="google_translate_element"></div>
+                            </li> -->
+                <!-- </ul>
+        </div>
+        </nav>  -->
             </header>
 
 
@@ -420,36 +468,36 @@
             <div class="containers-Layout__main">
                 <div class="sections-Masthead__container">
                     <picture class="elements-ResponsiveImage__container elements-ResponsiveImage__background">
-                        <source srcSet="//images.ctfassets.net/0uov5tlk8deu/2p6BLEbg7WtvAAajzUnwNJ/939d7589dfe3d1821eacaddf42d8b297/homepage_mobileHero_bg.png" media="(max-width: 767px)" />
-                        <img src="images/homepage_hero_bg_0802_cro.png" alt="Homepage masthead bg" />
+                        <source srcset="images/homepage_mobileHero_bg.png" media="(max-width: 767px)">
+                        <img src="images/herobg.png" alt="Homepage masthead bg" />
                     </picture>
                     <div class="sections-Masthead__subsectionsTop"></div>
                     <div class="sections-Masthead__contentContainer">
                         <div class="sections-Masthead__infoBlock">
                             <div class="sections-Masthead__infoText">
                                 <h1>Speak Fluently</h1>
-                                <p>Become a master of any languages by chatting with real native speakers around the world. 100% For free!</p>
+                                <p style="margin-top: -50px;">Become a master of any languages by chatting with real native speakers around the world. 100% For free!</p>
                             </div>
                             <div class="container" style="display: flex; height: 100px;">
                                 <div style="width: 25%;margin-top: -100px;margin-right: 20px;">
                                     <a class="elements-CtaLinks__link" href=""><img src="images/apple-badge_2x.png" alt="apple-badge@2x" width="150" class="elements-CtaLinks__badge"></a>
                                 </div>
-                                <div style="width: 25%;margin-top: -100px;">
+                                <div style="width: 25%;margin-top: -100px;margin-right: 20px;">
                                     <a class="elements-CtaLinks__link" href=""><img src="images/google-play-badge_2x.png" alt="apple-badge@2x" width="150" class="elements-CtaLinks__badge"></a>
+                                </div>
+                                <div style="width: 25%;margin-top: -100px;">
+                                    <a class="elements-CtaLinks__link" href=""><img src="images/part3.png" alt="apple-badge@2x" width="150" class="elements-CtaLinks__badge"></a>
                                 </div>
                             </div>
                         </div>
                         <picture class="elements-ResponsiveImage__container sections-Masthead__imageWrapper">
-                            <source srcSet="images/masthead_mob_2phones.png" media="(max-width: 767px)" />
-                            <img src="images/desktop-and-phone.png" alt="desktop-and-phone for masthead" class="sections-Masthead__image" height="976" />
-                        </picture>
+                            <source srcset="images/masthead_mob_2phones.png" media="(max-width: 767px) " style="width: 100px; width: 100px; position: relative;"><img src="images/desktop-and-phone.png" alt="desktop-and-phone for masthead" class="sections-Masthead__image" height="976"></picture>
                     </div>
                 </div>
 
 
                 <div class="sections-PageSection__container" id="section_7erd2vjIqg8gVyAa1cwCjp">
                     <div class="sections-AppFeatureSlider__container sections-AppFeatureSlider__light">
-                        <div class="lazyload-placeholder"></div>
                         <div class="containers-GridContainer__container containers-GridContainer__wide">
                             <div class="sections-AppFeatureSlider__intro">
                                 <div>
@@ -466,7 +514,7 @@
                                         <picture>
                                             <source srcset="images/messaging_text.webp" type="image/webp">
                                             <source id="scrset_ved" srcset="images/messaging.mp4" type="video/mp4">
-                                            <img src="images/text-screenshot.png" class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded" style="margin-top: -170px;margin-left: -40px;">
+                                            <img src="images/text-screenshot.png" class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded" style="margin-top: -178px;margin-left: -35px;">
                                         </picture>
                                     </div>
 
@@ -482,7 +530,7 @@
                                         <picture>
                                             <source srcset="images/messaging_correction.webp " type="image/webp ">
                                             <source srcset="images/correction.mp4 " type="video/mp4 ">
-                                            <img src="images/correction-screenshot.png " class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded " style="margin-top: -280px;margin-left: -40px;">
+                                            <img src="images/correction-screenshot.png " class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded " style="margin-top: -275px;margin-left: -35px;">
                                         </picture>
                                     </div>
 
@@ -491,7 +539,7 @@
                                         <picture>
                                             <source srcset="images/messaging_translate.webp " type="image/webp ">
                                             <source srcset="images/translate.mp4 " type="video/mp4 ">
-                                            <img src="images/translate-screenshot.png " class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded " style="margin-top: -360px;margin-left: -40px;">
+                                            <img src="images/translate-screenshot.png " class="sections-AppFeatureSlider__animation sections-AppFeatureSlider__loaded " style="margin-top: -345px;margin-left: -35px;">
                                         </picture>
                                     </div>
 
@@ -527,9 +575,24 @@
 
                                     <div class="sections-AppFeatureSlider__bar sections-AppFeatureSlider__tab0 "></div>
                                 </div>
-                                <div class="sections-AppFeatureSlider__featureText ">
+                                <div class="sections-AppFeatureSlider__featureText dis_sec">
                                     <div>
-                                        <p style="margin-top: -100px;">Chat with native speakers via text, voice recordings, vidoe calls and even doodles! Whatever your communication prefrence, we have you covered. Learn with professional teachers 1-1.</p>
+                                        <p style="margin-top: -200px;">Chat with native speakers via text, voice recordings, vidoe calls and even doodles! Whatever your communication prefrence, we have you covered. Learn with professional teachers 1-1.</p>
+                                    </div>
+                                </div>
+                                <div class="sections-AppFeatureSlider__featureText dis_sec_v">
+                                    <div>
+                                        <p style="margin-top: -200px;"> Teachers And native speakers teavh you their language , culture while you teach them yours. Milllions of members are utilizing powerful concept of HiNatives to pratice more than 100 languages.</p>
+                                    </div>
+                                </div>
+                                <div class="sections-AppFeatureSlider__featureText dis_sec_c">
+                                    <div>
+                                        <p style="margin-top: -200px;"> Built-in aids for proninciation and correction make conversation run smoothly. Learning is siple as chatting! it's easy..</p>
+                                    </div>
+                                </div>
+                                <div class="sections-AppFeatureSlider__featureText dis_sec_t">
+                                    <div>
+                                        <p style="margin-top: -200px;"> You can engage with entire community by posting moments. These public post are seen by all native speakers of your target language, ideal for asking questions and sharing updates. Find users nearby and by languages.</p>
                                     </div>
                                 </div>
                             </div>
@@ -562,7 +625,7 @@
                             <div class="sections-TextImageSection__imageWrapper ">
                                 <picture class="elements-ResponsiveImage__container sections-TextImage Section__imageBg ">
                                     <source srcset="images/iphone-community_2x.png?fl=progressive&w=750 " media="(max-width: 767px) ">
-                                    <img src="images/iphone-community_2x.png " alt="iphone-community " height="500 "></picture>
+                                    <img src="images/iphone-community_2x.png " alt="iphone-community " style="height: 570px;"></picture>
                             </div>
                         </section>
                         <section class="sections-TextImageSection__container sections-TextImageSection__alignRight sections-TextImageSection__explainer ">
@@ -582,7 +645,7 @@
                             </div>
                             <div class="sections-TextImageSection__imageWrapper ">
                                 <source srcset="images/iphone-userprofile_2x__1_.png?fl=progressive&amp;w=750 " media="(max-width: 767px) ">
-                                <img src="images/iphone-userprofile_2x__1_.png " alt="iphone-userprofile " height="500 "></picture>
+                                <img src="images/iphone-userprofile_2x__1_.png " alt="iphone-userprofile " style="height: 580px;"></picture>
                             </div>
                         </section>
                         <section class="sections-TextImageSection__container sections-TextImageSection__alignLeft sections-TextImageSection__explainer ">
@@ -639,12 +702,12 @@
                         <div class="sections-Reviews__reviews ">
 
                             <div>
-                                <div class="row" style="display: flex; background-color: #fff;">
-                                    <div class="column" style="flex: 50%;"><img src="images/11.jpeg" alt="" height="150px" width="150px" style="border-radius: 50%;padding: 15px;"></div>
-                                    <div class="column" style="flex: 50%;">
-                                        <p style="padding: 15px;">Lexander</p>
-                                        <p>Wants to learn <img src="images/china.png" alt="" height="20px" width="20px"></p>
-                                        <p>Can teach you <img src="images/pakistan.jpeg" alt="" height="20px" width="20px"></p>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/people.jpeg " alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Lexander</p>
+                                        <p>Wants to learn <img src="images/china.png " alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/pakistan.jpeg " alt=" " height="20px " width="20px "></p>
                                     </div>
                                 </div>
 
@@ -655,12 +718,12 @@
                             </div>
 
                             <div>
-                                <div class="row" style="display: flex; background-color: #fff;">
-                                    <div class="column" style="flex: 50%;"><img src="images/22.jpeg" alt="" height="150px" width="150px" style="border-radius: 50%;padding: 15px;"></div>
-                                    <div class="column" style="flex: 50%;">
-                                        <p style="padding: 15px;">Lexander</p>
-                                        <p>Wants to learn <img src="images/usa.png" alt="" height="20px" width="20px"></p>
-                                        <p>Can teach you <img src="images/rus.jpeg" alt="" height="20px" width="20px"></p>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p12.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Mia</p>
+                                        <p>Wants to learn <img src="images/usa.png " alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/rus.jpeg " alt=" " height="20px " width="20px "></p>
                                     </div>
                                 </div>
 
@@ -670,12 +733,12 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="row" style="display: flex; background-color: #fff;">
-                                    <div class="column" style="flex: 50%;"><img src="images/33.jpeg" alt="" height="150px" width="150px" style="border-radius: 50%;padding: 15px;"></div>
-                                    <div class="column" style="flex: 50%;">
-                                        <p style="padding: 15px;">Lexander</p>
-                                        <p>Wants to learn <img src="images/turkey.png" alt="" height="20px" width="20px"></p>
-                                        <p>Can teach you <img src="images/uk.png" alt="" height="20px" width="20px"></p>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p3.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Rachel</p>
+                                        <p>Wants to learn <img src="images/turkey.png " alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/uk.png " alt=" " height="20px " width="20px "></p>
                                     </div>
                                 </div>
 
@@ -684,6 +747,101 @@
                                     <div class="sections-Reviews__author ">Francesca</div>
                                 </div>
                             </div>
+
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p4.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Ali</p>
+                                        <p>Wants to learn <img src="images/brazil.png" alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/canada.png " alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p10.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Robert</p>
+                                        <p>Wants to learn <img src="images/finland.png" alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/jamaica.png" alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p6.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Christian</p>
+                                        <p>Wants to learn <img src="images/argentina.png" alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/norway.svg" alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p8.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Daniel</p>
+                                        <p>Wants to learn <img src="images/turkey.png " alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/jamaica.png" alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p9.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Shen Chin</p>
+                                        <p>Wants to learn <img src="images/china.png" alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/argentina.png " alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="row " style="display: flex; background-color: #fff; ">
+                                    <div class="column " style="flex: 50%; "><img src="images/p.jpeg" alt=" " height="150px " width="150px " style="border-radius: 50%;padding: 15px; "></div>
+                                    <div class="column " style="flex: 50%; ">
+                                        <p style="padding: 15px;font-weight: bold ; font-size: 2rem; ">Robert</p>
+                                        <p>Wants to learn <img src="images/pakistan.jpeg " alt=" " height="20px " width="20px "></p>
+                                        <p>Can teach you <img src="images/usa.png" alt=" " height="20px " width="20px "></p>
+                                    </div>
+                                </div>
+
+                                <div class="sections-Reviews__review ">
+                                    <div class="sections-Reviews__comment ">&quot;I love this app. Speaking to people who also want to learn a language is the best thing ever! I’ve made great friends already and it hasn’t even been 24 hours. I love this app!&quot;</div>
+                                    <div class="sections-Reviews__author ">Francesca</div>
+                                </div>
+                            </div>
+
+
 
                         </div>
                     </div>
@@ -693,14 +851,14 @@
                         <div class="containers-GridContainer__container containers-GridContainer__wide ">
                             <div class="sections-GetAppBanner__contentContainer ">
                                 <picture class="elements-ResponsiveImage__container sections-GetAppBanner__imageWrapper ">
-                                    <source srcset="//images.ctfassets.net/0uov5tlk8deu/K8g8v0e6RyaUwU5S73npT/3af08c757341645c3519317deabc43fd/devices_2x.png?fl=progressive&amp;w=750 " media="(max-width: 767px) "><img src="images/devices_2x.png
-                                                " alt="Homepage CTA devices " class="sections-GetAppBanner__image " height="678 " width="1040 "></picture>
+                                    <source srcset="images/devices_2x.png?fl=progressive&amp;w=750 " media="(max-width: 767px) "><img src="images/devices_2x.png " alt="Homepage CTA devices " class="sections-GetAppBanner__image " height="678
+                                        " width="1040 "></picture>
                                 <div class="sections-GetAppBanner__infoBlock ">
                                     <div class="sections-GetAppBanner__infoText ">
                                         <h5 style="margin-bottom: -30px ; ">1 -on- 1 or group live classes.</h5>
-                                        <p style="margin-bottom: -30px; ">100% satisfaction guarentee.</p>
+                                        <p style="margin-bottom: -70px; ">100% satisfaction guarentee.</p>
                                         <ul style="margin-bottom: -30px; ">
-                                            <li style="margin-bottom: -30px;text-align: left ">Buliding fluency and confidence for conversations</li>
+                                            <li style="margin-bottom: -30px;text-align: left;">Buliding fluency and confidence for conversations</li>
                                             <li style="margin-bottom: -30px;text-align: left ">Professional language skills for business and travel</li>
                                             <li style="margin-bottom: -30px;text-align: left; ">Public speaking and presentation</li>
                                             <li style="margin-bottom: -30px;text-align: left ">Job interview preparation</li>
@@ -772,71 +930,18 @@
                                 <div class="navigation-FooterMenu__label "><a href="/faq ">FAQ</a></div>
                                 <div class="navigation-FooterMenu__label "><a href="/about-us ">About Us</a></div>
                                 <div class="navigation-FooterMenu__label "><a href="/contact-us ">Contact Us</a></div>
-                                <div class="navigation-FooterMenu__label "><a href="/certificates ">Language Certificates</a></div>
-                                <div class="navigation-FooterMenu__label "><a href="/careers ">Careers</a></div>
-                                <div class="navigation-FooterMenu__label "><a href="/press ">Press</a></div>
-                                <div class="navigation-FooterMenu__label "><a href="/language-exchange ">Language Exchange</a></div>
+
                             </section>
-                            <section class="navigation-FooterMenu__section navigation-FooterMenu__social ">
-                                <div class="navigation-FooterMenu__sectionTitle ">Social Media</div>
-                                <div class="navigation-FooterMenu__icons ">
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://www.instagram.com/tandemlanguageexchangeapp/ " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://www.facebook.com/tandemlanguageapp " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://twitter.com/tandemhq " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://www.weibo.com/p/1006065829800512/home?from=page_100606&amp;is_hot=1 " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://vk.com/tandemhq " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                    <div class="navigation-FooterMenu__label ">
-                                        <a href="https://www.youtube.com/channel/UC6i3Qdq0FAKCaH4s7pQJklw " target="_blank " rel="nofollow ">
-                                            <div style="height:30px " class="lazyload-placeholder "></div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </section>
+
                         </div>
                         <div class="navigation-FooterMenu__second ">
                             <section class="navigation-FooterMenu__section ">
-                                <div class="navigation-FooterMenu__sectionTitle ">Local Tandems</div>
+                                <div class="navigation-FooterMenu__sectionTitle ">Local HiNatives</div>
                                 <div class="navigation-FooterMenu__cities ">
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-berkeley ">Berkeley</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-birmingham ">Birmingham</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-brisbane ">Brisbane</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-cambridge ">Cambridge</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-chicago ">Chicago</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-dublin ">Dublin</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-edinburgh ">Edinburgh</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-glasgow ">Glasgow</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-houston ">Houston</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-london ">London</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-melbourne ">Melbourne</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-montreal ">Montreal</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-new-york ">New York</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-nottingham ">Nottingham</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-san-diego ">San Diego</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-san-francisco ">San Francisco</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-seattle ">Seattle</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-sydney ">Sydney</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-toronto ">Toronto</a></div>
-                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-vancouver ">Vancouver</a></div>
+                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-berkeley ">Brand:</a></div>
+                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-birmingham ">Address:</a></div>
+                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-brisbane ">Phone:</a></div>
+                                    <div class="navigation-FooterMenu__label "><a href="/partner/language-exchange-cambridge ">Email:</a></div>
                                 </div>
                             </section>
                         </div>
@@ -850,20 +955,8 @@
                                 <div class="navigation-FooterMenu__label "><a href="/imprint ">Legal Information</a></div>
                                 <div class="navigation-FooterMenu__label "><a href="/privacy ">Privacy</a></div>
                             </section>
-                            <section class="navigation-FooterMenu__section navigation-FooterMenu__officeB ">
-                                <div class="navigation-FooterMenu__sectionTitle ">Berlin office</div>
-                                <div>
-                                    <p>Brunnenstr. 196 3. Quergebäude D-10119 Berlin Germany
-                                    </p>
-                                </div>
-                            </section>
-                            <section class="navigation-FooterMenu__section navigation-FooterMenu__officeH ">
-                                <div class="navigation-FooterMenu__sectionTitle ">Hannover office</div>
-                                <div>
-                                    <p>Hanomaghof 2 D-30449 Hannover Germany
-                                    </p>
-                                </div>
-                            </section>
+
+
                         </div>
                         <div class="navigation-FooterMenu__forth ">
                             <section class="navigation-FooterMenu__section navigation-FooterMenu__badges ">
@@ -873,30 +966,7 @@
 
                                 </div>
                             </section>
-                            <section class="navigation-FooterMenu__section navigation-FooterMenu__languages ">
-                                <div class="navigation-FooterMenu__sectionTitle ">Site Language</div>
-                                <div class="navigation-SiteLanguageMenu__container ">
-                                    <div class="containers-Dropdown__container containers-Dropdown__scroll ">
-                                        <div class="containers-Dropdown__heading ">
-                                            <div class="navigation-SiteLanguageMenu__heading ">
-                                                <div class="containers-Dropdown__label containers-Dropdown__noHighlight "><a><span><img class="elements-RoundIcon__container " src="images/en_us.svg " alt="en " title="English " width="20 " height="20 ">English</span></a></div>
-                                            </div>
-                                        </div>
-                                        <div class="containers-Dropdown__menu ">
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                            <div class="containers-Dropdown__item "> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+
                         </div>
                     </div>
                 </div>
@@ -2813,21 +2883,21 @@
                                 "heading ": "People love Tandem! ",
                                 "subHeading ": "Over 100,000 5-star reviews! ",
                                 "elements ": ["\ "
-                                    I love this app.Speaking to people who also want to learn a language is the best thing ever!I’ ve made great friends already and it hasn’ t even been 24 hours.I love this app!\"_Francesca ", "“There is
-                                    always a friendly language partner ready to strike up a conversation, and the staff are professional and helpful!I would recommend Tandem to anyone trying to practice a new language!!”_Luca ", "“
-                                    If you’ re
-                                    truly serious about learning a different language this is the app
+                                    I love this app.Speaking to people who also want to learn a language is the best thing ever!I’ ve made great friends already and it hasn’ t even been 24 hours.I love this app!\"_Francesca ", "“There is always a friendly
+                                    language partner ready to strike up a conversation, and the staff are professional and helpful!I would recommend Tandem to anyone trying to practice a new language!!”_Luca ", "“
+                                    If you’ re truly serious about learning
+                                    a different language this is the app
                                     for you!!!You will not regret it!This app makes it safe and fun
                                     for everyone to communicate and learn!I love this app!”_Sakiko ", "“
-                                    Lots of
-                                    nice people and it’ s fun and easy to use.It will translate what you say and you can use the speak
+                                    Lots of nice people and it’ s fun and easy to
+                                    use.It will translate what you say and you can use the speak
 
                                     function to learn how to say it.It does almost everything you need and more!6 stars!”_Alfonso ", "“
-                                    This app
-                                    is seriously the best!It’ s so crazy to meet people from the other side of the world!It’ s great
+                                    This app is seriously the best!It’ s so crazy to meet
+                                    people from the other side of the world!It’ s great
                                     for improving languages because you are talking to real people .11 / 10 would recommend.”_Niamh ", "“
-                                    I feel privileged
-                                    to have met sensational people through the app.You not only learn and develop another language, you also learn about cultures, popular sayings, and get tips.”_Mikhail "],
+                                    I feel privileged to have met sensational people through the
+                                    app.You not only learn and develop another language, you also learn about cultures, popular sayings, and get tips.”_Mikhail "],
                                     "type ": "reviews ",
                                     "_id ": "7M8CFnX2YWCUdq9qJsF4Bd ",
                                     "_createdAt ": "2020-05-26T17:47:44.740Z ",
@@ -2899,17 +2969,18 @@
                                     },
                                     "id ": "EN partner pages: Learn languages online ",
                                     "body ": "\u003caside\u003e\n \u003ch3 style=\ "
-                                    color: #fff\ "\u003eLearn languages online\u003c/h3\u003e\n \u003cul\u003e\n \u003cli\u003e\u003ca href=\ " / learn - spanish - online\ "\u003eLearn Spanish\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/learn-english-online\"\u003eLearn English\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - italian - online\ "\u003eLearn Italian\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/learn-russian-online\"\u003eLearn Russian\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - japanese - online\ "\u003eLearn Japanese\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/learn-chinese-online\"\u003eLearn Chinese\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - portuguese - online\ "\u003eLearn Portuguese\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/learn-french-online\"\u003eLearn French\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - german - online\ "\u003eLearn German\u003c/a\u003e\u003c/li\u003e\n \u003c/ul\u003e\n\u003c/aside\u003e\n\u003caside\u003e\n\
-                                    u003ch3 style = \"color: #fff\"\u003eFind a tandem exchange partner\u003c/h3\u003e\n\n \u003cul\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - spanish\ "\u003ePractice Spanish\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/practice-speaking-english\"\u003ePractice English\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - italian\ "\u003ePractice Italian\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/practice-speaking-russian\"\u003ePractice Russian\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - japanese\ "\u003ePractice Japanese\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/practice-speaking-chinese\"\u003ePractice Chinese\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - portuguese\ "\u003ePractice Portuguese\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003cli\ u003e\ u003ca href = \"/practice-speaking-french\"\u003ePractice French\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - german\ "\u003ePractice German\u003c/a\u003e\u003c/li\u003e\n\
-                                    u003c / ul\ u003e\ n\ u003c / aside\ u003e ",
+                                    color: #fff\ "\u003eLearn languages online\u003c/h3\u003e\n \u003cul\u003e\n \u003cli\u003e\u003ca href=\ " / learn - spanish - online\ "\u003eLearn Spanish\u003c/a\u003e\u003c/li\u003e\n\ u003cli\ u003e\ u003ca href=\
+                                        " / learn - english - online\ "\u003eLearn English\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - italian - online\ "\u003eLearn Italian\u003c/a\u003e\u003c/li\u003e\n\ u003cli\ u003e\ u003ca href=\
+                                        " / learn - russian - online\ "\u003eLearn Russian\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - japanese - online\ "\u003eLearn Japanese\u003c/a\u003e\u003c/li\u003e\n\ u003cli\ u003e\ u003ca href=\
+                                        " / learn - chinese - online\ "\u003eLearn Chinese\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - portuguese - online\ "\u003eLearn Portuguese\u003c/a\u003e\u003c/li\u003e\n\ u003cli\ u003e\ u003ca href=\
+                                        " / learn - french - online\ "\u003eLearn French\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / learn - german - online\ "\u003eLearn German\u003c/a\u003e\u003c/li\u003e\n \u003c/ul\u003e\n\u003c/aside\u003e\n\u003caside\u003e\n\
+                                        u003ch3 style=\ "
+                                    color: #fff\ "\u003eFind a tandem exchange partner\u003c/h3\u003e\n\n \u003cul\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - spanish\ "\u003ePractice Spanish\u003c/a\u003e\u003c/li\u003e\n\
+                                        u003cli\ u003e\ u003ca href=\ " / practice - speaking - english\ "\u003ePractice English\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - italian\ "\u003ePractice Italian\u003c/a\u003e\u003c/li\u003e\n\
+                                        u003cli\ u003e\ u003ca href=\ " / practice - speaking - russian\ "\u003ePractice Russian\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - japanese\ "\u003ePractice Japanese\u003c/a\u003e\u003c/li\u003e\n\
+                                        u003cli\ u003e\ u003ca href=\ " / practice - speaking - chinese\ "\u003ePractice Chinese\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - portuguese\ "\u003ePractice Portuguese\u003c/a\u003e\u003c/li\u003e\n\
+                                        u003cli\ u003e\ u003ca href=\ " / practice - speaking - french\ "\u003ePractice French\u003c/a\u003e\u003c/li\u003e\n \u003cli\u003e\u003ca href=\ " / practice - speaking - german\ "\u003ePractice German\u003c/a\u003e\u003c/li\u003e\n\
+                                        u003c / ul\ u003e\ n\ u003c / aside\ u003e ",
                                     "image ": {
                                         "metadata ": {
                                             "tags ": []
@@ -7469,6 +7540,8 @@
             }
         ]);
     </script>
+
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
