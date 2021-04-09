@@ -22,3 +22,7 @@ $(function() {
         }
     })
 });
+
+$(function() {
+    $("#includedContent").load("blog.html");
+});

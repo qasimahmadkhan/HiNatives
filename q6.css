@@ -552,7 +552,7 @@
         font-size: 20px;
         letter-spacing: .33px;
         text-align: center;
-        margin: 10px 0
+        margin: 10px 0;
     }
     .sections-TextImageSection__container.sections-TextImageSection__explainer .sections-TextImageSection__body {
         font-size: 14px;
@@ -1405,6 +1405,87 @@
     margin-bottom: 30px
 }
 
+.introp {
+    margin-top: -100px;
+}
+
+.introp2 {
+    font-size: 2rem;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+@media (max-width:767px) {
+    .introp2 {
+        font-size: 1rem;
+        margin-top: -70px;
+    }
+}
+
+.frametext {
+    margin-top: -200px;
+}
+
+@media (max-width:767px) {
+    .frametext {
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+    .frametext1 {
+        margin-top: -55px;
+        font-size: 1rem;
+    }
+    .frametext2 {
+        margin-top: -55px;
+        font-size: 1rem;
+    }
+    .frametext3 {
+        margin-top: -55px;
+        font-size: 1rem;
+    }
+}
+
+.fr1 {
+    margin-top: -230px !important;
+}
+
+.fr2 {
+    margin-top: -320px !important;
+}
+
+.fr3 {
+    margin-top: -500px !important;
+}
+
+.fr4 {
+    margin-top: -390px !important;
+}
+
+.dis_secimg {
+    margin-top: -178px;
+    margin-left: -20px;
+}
+
+.dis_sec_vimg {
+    margin-top: -220px;
+    margin-left: -18px
+}
+
+.dis_sec_cimg {
+    margin-top: -275px;
+    margin-left: -18px;
+}
+
+.sections-AppFeatureSlider__intro>* {
+    width: 80%;
+    max-width: 685px
+}
+
+.dis_sec_timg {
+    margin-top: -345px;
+    margin-left: -19px;
+}
+
 .sections-AppFeatureSlider__intro>* {
     width: 80%;
     max-width: 685px
@@ -1415,14 +1496,16 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 40% 60%;
     grid-gap: 35px;
-    grid-template-areas: "phone navigation" "phone featureText"
+    grid-template-areas: "phone navigation" "phone featureText";
+    margin-top: -80px;
 }
 
 .sections-AppFeatureSlider__screen {
     width: 387px;
     height: 782px;
     position: relative;
-    grid-area: phone
+    grid-area: phone;
+    margin-left: -200px;
 }
 
 .sections-AppFeatureSlider__screen img {
@@ -1435,11 +1518,32 @@
     z-index: 3
 }
 
+@media (max-width:768px) {
+    .fr1 {
+        margin-top: -230px !important;
+    }
+    .fr2 {
+        margin-top: -360px !important;
+    }
+    .fr3 {
+        margin-top: -410px !important;
+    }
+    .fr4 {
+        margin-top: -480px !important;
+    }
+}
+
 .sections-AppFeatureSlider__animation,
 .sections-AppFeatureSlider__fallback {
     width: 387px;
     height: 782px;
     padding: 22px 25px 31px
+}
+
+@media (max-width:768px) {
+    .sections-AppFeatureSlider__fallback {
+        margin-left: -105px !important;
+    }
 }
 
 .sections-AppFeatureSlider__screen .sections-AppFeatureSlider__animation.sections-AppFeatureSlider__loaded {
@@ -1529,7 +1633,9 @@
         grid-template-columns: 100%;
         grid-template-rows: auto;
         grid-template-areas: "featureText" "phone" "navigation";
-        grid-gap: 40px
+        grid-gap: 40px;
+        /* margin-top: -200px; */
+        /* padding-right: -20px; */
     }
     .sections-AppFeatureSlider__content>* {
         justify-self: center
@@ -1558,7 +1664,8 @@
     .sections-AppFeatureSlider__screen .sections-AppFeatureSlider__frame,
     .sections-AppFeatureSlider__screen img {
         width: 209px;
-        height: 419px
+        height: 419px;
+        margin-left: -125px;
     }
     .sections-AppFeatureSlider__animation,
     .sections-AppFeatureSlider__fallback {
@@ -1569,6 +1676,11 @@
         line-height: 1.45;
         letter-spacing: .33px;
         margin-bottom: 5px
+    }
+    @media (max-width:768px) {
+        .sections-AppFeatureSlider__featureText {
+            margin-bottom: -120px
+        }
     }
     .sections-AppFeatureSlider__bar {
         width: 55px
@@ -1917,5 +2029,20 @@
 @media (max-width:767px) {
     .sections-PageSection__columns3 {
         padding-top: 25px
+    }
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 30px;
+}
+
+.nav-item {
+    padding: 0px 20px 0px 20px;
+}
+
+@media (max-width:767px) {
+    .t1 {
+        padding-top: 70px
     }
 }
