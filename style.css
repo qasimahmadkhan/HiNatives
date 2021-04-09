@@ -995,9 +995,9 @@ img {
 }
 
 .btn-default {
-    border-radius: 100px;
-    line-height: 48px;
-    padding: 4px 35px;
+    border-radius: 100px !important;
+    line-height: 48px !important;
+    padding: 4px 35px !important;
     background-color: transparent;
     border: solid 1px #ffffff;
     font-size: 17px;
@@ -1022,8 +1022,8 @@ img {
 }
 
 .btn-white {
-    background-color: #fff;
-    color: #405bd3;
+    background-color: #fff !important;
+    color: #405bd3 !important;
 }
 
 .about-options .btn-white,
@@ -1035,8 +1035,8 @@ img {
 }
 
 .btn-orange {
-    background-color: #e0a418;
-    color: #fff;
+    background-color: #e0a418 !important;
+    color: #fff !important;
 }
 
 .about-options .btn-white,
@@ -1048,8 +1048,8 @@ img {
 }
 
 .btn-green {
-    background-color: #4bae29;
-    color: #fff;
+    background-color: #4bae29 !important;
+    color: #fff !important;
 }
 
 .press-kit {
