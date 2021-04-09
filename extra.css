@@ -6,6 +6,10 @@
     color: #fff;
 }
 
+.fs {
+    font-size: 1.5rem;
+}
+
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
     color: #fff;
