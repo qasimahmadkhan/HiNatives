@@ -883,7 +883,7 @@ body {
 } */
 
 .about-us-header {
-    background-color: #405bd3;
+    background-color: #e3670e;
     padding-top: 150px;
     padding-bottom: 90px;
 }
@@ -1035,7 +1035,7 @@ img {
 }
 
 .btn-orange {
-    background-color: #e0a418 !important;
+    background-color: #495057 !important;
     color: #fff !important;
 }
 
@@ -1877,7 +1877,7 @@ ul {
     display: block;
     width: 70px;
     height: 10px;
-    background-color: #405bd3;
+    background-color: #e3670e;
     margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
@@ -2006,3 +2006,19 @@ a {
     -webkit-transition: color 0.2s;
     -o-transition: color 0.2s;
 }
+
+@media (max-width:768px) {
+    .btncontact {
+        margin-left: 140px !important;
+    }
+}
+
+.btncontact {
+    margin-left: 60px;
+}
+
+
+/* .primary-bgcolor {
+    background-color: #e3670e !important;
+    ;
+} */

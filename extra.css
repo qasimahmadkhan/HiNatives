@@ -67,6 +67,12 @@
 }
 
 @media (max-width:767px) {
+    .custom-toggler.navbar-toggler {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width:767px) {
     .nav-link {
         padding-right: 0;
         padding-left: 10px !important;
