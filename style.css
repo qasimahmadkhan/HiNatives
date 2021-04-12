@@ -1049,6 +1049,14 @@ img {
     border: 0;
 }
 
+@media (max-width: 990px) {
+    .about-options .btn-white,
+    .about-options .btn-orange,
+    .about-options .btn-green {
+        margin-bottom: 50px;
+    }
+}
+
 .btn-green {
     background-color: #4bae29 !important;
     color: #fff !important;
