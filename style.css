@@ -979,6 +979,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 70px;
+    width: 70px;
 }
 
 .about-options .btn-white,
@@ -2022,3 +2024,7 @@ a {
     background-color: #e3670e !important;
     ;
 } */
+
+.site.tiled {
+    background: #cf7c3f !important;
+}
