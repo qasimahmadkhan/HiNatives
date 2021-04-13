@@ -224,3 +224,9 @@ input[type="submit"] {
 .elements-CtaLinks__badge {
     padding: 5px;
 }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
