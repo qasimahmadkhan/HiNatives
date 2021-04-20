@@ -1520,16 +1520,16 @@
 
 @media (max-width:768px) {
     .fr1 {
-        margin-top: -230px !important;
+        margin-top: -160px !important;
     }
     .fr2 {
-        margin-top: -360px !important;
+        margin-top: -288px !important;
     }
     .fr3 {
-        margin-top: -410px !important;
+        margin-top: -336px !important;
     }
     .fr4 {
-        margin-top: -480px !important;
+        margin-top: -408px !important;
     }
 }
 
@@ -1665,7 +1665,7 @@
     .sections-AppFeatureSlider__screen img {
         width: 209px;
         height: 419px;
-        margin-left: -125px;
+        margin-left: -123px;
     }
     .sections-AppFeatureSlider__animation,
     .sections-AppFeatureSlider__fallback {

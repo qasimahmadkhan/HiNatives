@@ -16,6 +16,16 @@
     color: #fff;
 }
 
+.navbar {
+    background-color: #e3670e;
+}
+
+.btn-orangee {
+    background-color: #e3670e;
+    border-color: #e3670e;
+    color: white;
+}
+
 
 /* Change navbar styling on scroll */
 
@@ -52,11 +62,12 @@
 
 @media (max-width: 991.98px) {
     .navbar {
-        background: rgb(255 109 0 / 25%);
+        background: #ff7300;
     }
     .navbar .navbar-brand,
     .navbar .nav-link {
         color: #fff;
+        /* margin-left: -100px; */
     }
     .custom-toggler .navbar-toggler-icon {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -67,15 +78,9 @@
 }
 
 @media (max-width:767px) {
-    .custom-toggler.navbar-toggler {
-        margin-left: 200px;
-    }
-}
-
-@media (max-width:767px) {
     .nav-link {
         padding-right: 0;
-        padding-left: 10px !important;
+        /* padding-left: 10px !important; */
     }
 }
 
@@ -112,10 +117,6 @@ footer a {
     flex-direction: column;
 } */
 
-.container {
-    flex: 1;
-}
-
 
 /* Footer main */
 
@@ -144,9 +145,16 @@ footer a {
 }
 
 .ft-main-item {
-    padding: 1.25rem;
+    /* padding: 1.25rem; */
     min-width: 12.5rem;
 }
+
+
+/* @media (max-width:550px) {
+    .ft-main-item {
+        padding: none;
+    }
+} */
 
 
 /* Footer main | Newsletter form */
@@ -216,11 +224,6 @@ input[type="submit"] {
     flex: 1;
 }
 
-
-/* .flex-container1 {
-    display: flex;
-} */
-
 .elements-CtaLinks__badge {
     padding: 5px;
 }
@@ -229,4 +232,11 @@ input[type="submit"] {
     height: auto;
     max-height: 200px;
     overflow-x: hidden;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #ff7300 !important;
+    border-color: #ff7300 !important;
 }

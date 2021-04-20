@@ -1130,10 +1130,11 @@ summary {
     }
 }
 
-.container {
+
+/* .container {
     padding-right: 15px !important;
     padding-left: 15px !important;
-}
+} */
 
 @media (min-width: 1200px) {
     .container {
@@ -1838,7 +1839,7 @@ ul {
     padding-bottom: 70px;
 }
 
-.container {
+.containernavb {
     padding-right: 15px !important;
     padding-left: 15px !important;
 }

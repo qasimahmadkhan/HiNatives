@@ -1,0 +1,357 @@
+.about-us-header {
+    background-color: #e3670e;
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+
+.about-hero {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 120px;
+}
+
+.about-hero h1,
+.jobs-hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.75;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: 'SFUIText' !important;
+}
+
+.about-hero p,
+.jobs-hero p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* p {
+    -webkit-font-smoothing: antialiased;
+} */
+
+.about-options h3 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 7px;
+    margin-top: 30px;
+    font-family: 'SFUIText' !important;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .about-options p {
+        min-height: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-options p {
+        max-width: 328px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.about-options p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+/* p {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+} */
+
+
+/* img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+} */
+
+.img-icn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 70px;
+}
+
+.about-options .btn-white,
+.about-options .btn-orange,
+.about-options .btn-green {
+    width: 216px;
+    border-color: transparent;
+    border: 0;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #405bd3;
+}
+
+.btn-default {
+    border-radius: 100px !important;
+    line-height: 48px !important;
+    padding: 4px 35px !important;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    font-size: 17px;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.white,
+.about-options .btn-orange,
+.about-options .btn-green {
+    width: 216px;
+    border-color: transparent;
+    border: 0;
+}
+
+.btn-white {
+    background-color: #fff !important;
+    color: #405bd3 !important;
+}
+
+.about-options .btn-white,
+.about-options .btn-orange,
+.about-options .btn-green {
+    width: 216px;
+    border-color: transparent;
+    border: 0;
+}
+
+.btn-orange {
+    background-color: #495057 !important;
+    color: #fff !important;
+}
+
+.about-options .btn-white,
+.about-options .btn-orange,
+.about-options .btn-green {
+    width: 216px;
+    border-color: transparent;
+    border: 0;
+}
+
+@media (max-width: 800px) {
+    .about-options .btn-white,
+    .about-options .btn-orange,
+    .about-options .btn-green {
+        margin-bottom: 50px;
+        /* margin-left: 100px; */
+    }
+}
+
+.btn-green {
+    background-color: #4bae29 !important;
+    color: #fff !important;
+}
+
+.press-kit {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.border-bottom-title {
+    font-size: 32px;
+    color: #313236;
+    line-height: 2.19;
+    font-weight: 600;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'SFUIText' !important;
+}
+
+.kit-item {
+    text-align: center;
+}
+
+.kit-item a {
+    display: block;
+}
+
+.kit-item img {
+    margin-bottom: 25px;
+}
+
+.video-title,
+.kit-item .kit-title {
+    color: #313236;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'SFUIText' !important;
+}
+
+.kit-item .kit-title {
+    display: block;
+    transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -o-transition: color 0.2s;
+}
+
+.press-kit {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.section-videos {
+    background-color: #f9f9f9;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.video-item {
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 7.5px 10px 0 rgb(0 0 0 / 5%);
+    -moz-box-shadow: 0 7.5px 10px 0 rgba(0, 0, 0, 0.05);
+    -webkid-box-shadow: 0 7.5px 10px 0 rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+}
+
+.video-title {
+    margin: 20px 20px 0 25px;
+    line-height: 24px;
+}
+
+.video-title,
+.kit-item .kit-title {
+    color: #313236;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'SFUIText' !important;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+
+.video-image {
+    height: 222px;
+    position: relative;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.play-btn {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-image: url(images/play-selected.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+
+.btn-abt-center {
+    text-align: center;
+}
+
+.footer-nav li {
+    margin-right: 42px;
+    display: inline-block;
+}
+
+.footer-nav li a {
+    color: #858585;
+    font-size: 16px;
+}
+
+.container {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+footer.home-page-footer {
+    padding: 77px 0;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #555;
+    color: #bbb;
+    line-height: 1.5;
+}
+
+.footer-nav li a {
+    color: #858585;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .footer-nav {
+        float: right;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-nav {
+        float: right;
+    }
+}
