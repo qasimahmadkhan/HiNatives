@@ -1520,7 +1520,7 @@
 
 @media (max-width:768px) {
     .fr1 {
-        margin-top: -160px !important;
+        margin-top: -190px !important;
     }
     .fr2 {
         margin-top: -288px !important;
@@ -1622,6 +1622,7 @@
     font-size: 30px;
     max-width: 490px;
     min-height: 100px;
+    padding-top: 5px;
     grid-area: featureText
 }
 
