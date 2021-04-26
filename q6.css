@@ -1466,14 +1466,35 @@
     margin-left: -20px;
 }
 
+@media (max-width:767px) {
+    .dis_secimg {
+        margin-top: -143px;
+        margin-left: -143px !important;
+    }
+}
+
 .dis_sec_vimg {
     margin-top: -220px;
     margin-left: -18px
 }
 
+@media (max-width:767px) {
+    .dis_sec_vimg {
+        margin-top: -240px;
+        margin-left: -142px !important;
+    }
+}
+
 .dis_sec_cimg {
     margin-top: -275px;
     margin-left: -18px;
+}
+
+@media (max-width:767px) {
+    .dis_sec_cimg {
+        margin-top: -290px;
+        margin-left: -142px !important;
+    }
 }
 
 .sections-AppFeatureSlider__intro>* {
@@ -1484,6 +1505,13 @@
 .dis_sec_timg {
     margin-top: -345px;
     margin-left: -19px;
+}
+
+@media (max-width:767px) {
+    .dis_sec_timg {
+        margin-top: -360px;
+        margin-left: -142px !important;
+    }
 }
 
 .sections-AppFeatureSlider__intro>* {

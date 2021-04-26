@@ -197,9 +197,9 @@
                         }
                         .img2 {
                             height: 100% !important;
-                            /* width: 100% !important; */
+                            width: 85% !important;
                             object-fit: cover;
-                            padding-left: 70px;
+                            padding-left: 62px;
                         }
                         .img3 {
                             height: 100% !important;

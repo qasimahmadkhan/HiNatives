@@ -2080,7 +2080,8 @@ blockquote {
 
 @media (max-width: 767px) {
     .sections-AppFeatureSlider__loaded {
-        display: none;
+        /* display: none; */
+        /* padding-left: -150px; */
     }
 }
 
